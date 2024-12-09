@@ -3,7 +3,7 @@ import math
 def root(num1):
     try:
         result = math.sqrt(num1)
-        print("wynik to:",result)
+        print("result is:",result)
     except:
         print("Invalid input! Please enter a positive integer or a float value.")
 
