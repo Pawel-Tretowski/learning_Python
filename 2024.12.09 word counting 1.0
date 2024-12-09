@@ -1,0 +1,16 @@
+def count(word,text):
+    """
+    count how many times word appears in text
+    """
+    words = []
+    words = text.split()
+    result = {}
+    
+    for key in words:
+        if key == word:
+            result[key] = words.count(word)
+    
+    print(result)
+
+#example below:
+count("this", "this that this that this that this that this")
