@@ -1,0 +1,11 @@
+import math
+
+def root(num1):
+    try:
+        result = math.sqrt(num1)
+        print("wynik to:",result)
+    except:
+        print("Invalid input! Please enter a positive integer or a float value.")
+
+num1=float(input("podaj liczbe"))
+root(num1)
