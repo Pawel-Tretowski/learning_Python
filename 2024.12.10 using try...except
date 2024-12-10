@@ -3,7 +3,7 @@ def calc(num):
         result = num / (num - 5)
         print("Result is", result)
     except:
-        print("Please use number >5")
+        print("Please use number not equal to 5")
 
 try:
     user_input = float(input("Please type in the number: "))
