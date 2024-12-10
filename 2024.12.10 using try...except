@@ -1,0 +1,14 @@
+def calc(num):
+    try:
+        result = num / (num - 5)
+        print("Result is", result)
+    except:
+        print("Please use number >5")
+
+try:
+    user_input = float(input("Please type in the number: "))
+    calc(user_input)
+except ValueError:
+    print("please use a number")
+except:
+    print("unknown error in calc(num) formula")
